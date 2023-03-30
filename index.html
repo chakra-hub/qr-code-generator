@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="nav_bar">QR App</header>
+    <div class="form_container">
+    <form id="input_form">
+        <input type="text" id="text_area" placeholder="Enter your URL">
+        <select name="Resolution" id="res">
+            <option value="150x150">150 x 150</option>
+            <option value="250x250">250 x 250</option>
+            <option value="400x400">400 x 400</option>
+            <option value="600x600">600 x 600</option>
+          </select>
+          <button type="submit" id="generate_button">Generate</button>
+    </form>
+    </div>
+    <div class="qr_image">
+    </div>
+</body>
+</html>

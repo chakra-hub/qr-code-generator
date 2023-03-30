@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav_bar{
+    background-color: rgb(28, 191, 255);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.form_container{
+    background-color: yellow;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#input_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 80%;
+}
+#text_area{
+    width: 70%;
+    padding: 8px;
+    font-size: 14px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 6px gainsboro;
+    transition: 0.3s ease-in;
+
+}
+#text_area:hover, #res:hover{
+    box-shadow: 0 0 6px rgb(28, 191, 255);;
+    cursor: pointer;
+}
+#text_area:focus, #res:focus{
+    box-shadow: 0 0 6px rgb(28, 191, 255);;
+    background-color: rgb(238, 247, 251);
+}
+#res{
+    width: 30%;
+    height: 20%;
+    outline: none;
+    margin-bottom: 10px;
+    box-shadow: 0 0 6px gainsboro;
+    border: 0;
+    border-radius: 5px;
+}
+#generate_button{
+    width: 30%;
+    height: 20%;
+    background-color: rgb(28, 191, 255);;
+    color: white;
+    outline: none;
+    box-shadow: 0 0 6px gainsboro;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#generate_button:hover{
+    background-color: white;
+    color: rgb(28, 191, 255);;
+    box-shadow: 0 0 6px rgb(28, 191, 255);;
+}
+.qr_image{
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#save_btn{
+    margin-top: 10px;
+    width: 15%;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+#save_btn:hover{
+    background-color: rgb(193, 0, 0);
+    color: white;
+}
